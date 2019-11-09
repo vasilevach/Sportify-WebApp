@@ -1,0 +1,29 @@
+@import "../config/variables";
+
+.page-title-box {
+  .page-title {
+    font-size: 18px;
+    margin: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+
+  .page-title-right {
+    float: right;
+    margin-top: 15px;
+  }
+
+  .breadcrumb {
+    padding-top: 8px;
+    background: none;
+  }
+
+  .breadcrumb-item {
+    color: $gray-600;
+
+    a {
+      color: $white;
+    }
+  }
+}

@@ -1,0 +1,17 @@
+@import "../../assets/config/variables";
+
+.artist-page {
+  min-height: 100%;
+  display: flex;
+  background: $background;
+  flex-direction: column;
+}
+
+.artist-avatar {
+  min-width: 250px;
+  border-radius: 50%;
+}
+
+.albums-list {
+  background: $secondaryBackground;
+}

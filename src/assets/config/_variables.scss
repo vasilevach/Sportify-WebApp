@@ -1,0 +1,46 @@
+$background: #0f0f0f;
+$secondaryBackground: #191818;
+
+$white: #fff !default;
+$gray-100: #f1f3fa;
+$gray-200: #e3eaef;
+$gray-300: #dee2e6 !default;
+$gray-400: #ced4da !default;
+$gray-500: #adb5bd !default;
+$gray-600: #98a6ad;
+$gray-700: #6c757d;
+$gray-800: #333333 !default;
+$gray-900: #212121;
+$black: #000 !default;
+
+$blue: #2c8ef8;
+$indigo: #727cf5;
+$purple: #6b5eae;
+$pink: #ff679b;
+$red: #fa5c7c;
+$orange: #fd7e14;
+$yellow: #ffbc00;
+$green: #0acf97;
+$teal: #02a8b5;
+$cyan: #39afd1;
+
+$primary: #1ed760;
+$secondary: #6fcdcb;
+$success: $green;
+$info: $cyan;
+$warning: $yellow;
+$danger: $red;
+$light: $gray-200;
+$dark: $gray-900;
+
+$theme-colors: ();
+$theme-colors: map-merge((
+  "primary": $primary,
+  "secondary": $secondary,
+  "success": $success,
+  "info": $info,
+  "warning": $warning,
+  "danger": $danger,
+  "light": $light,
+  "dark": $dark
+), $theme-colors);

@@ -1,0 +1,17 @@
+.notifications {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  z-index: 1000;
+}
+
+.notification {
+  width: 100%;
+  min-width: 120px;
+  margin: 10px;
+  align-self: flex-end;
+}

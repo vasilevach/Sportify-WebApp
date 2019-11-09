@@ -1,0 +1,49 @@
+@import "config/variables";
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  overflow-x: hidden;
+  color: white;
+}
+
+html, body, #root, .app {
+  height: 100%;
+  overflow: auto;
+  background: $background;
+}
+
+// Fix event bubbling on iOS devices
+@supports (-webkit-overflow-scrolling: touch) {
+  body {
+    cursor: pointer;
+  }
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+// Wrapper
+.wrapper {
+  height: 100%;
+  overflow: hidden;
+  width: 100%;
+}
+
+.app {
+  &.playlist {
+    padding-bottom: 200px;
+  }
+}
+
+@import "./config/materialdesignicons";
+
+@import "./components/avatar";
+@import "./components/breadcrumb";
+@import "./components/buttons";
+@import "./components/card";
+@import "./components/jumbotron";

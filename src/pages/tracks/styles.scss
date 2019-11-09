@@ -1,0 +1,13 @@
+@import "../../assets/config/variables";
+
+.track-page {
+  min-height: 100%;
+  display: flex;
+  background: $background;
+  flex-direction: column;
+}
+
+.track-image {
+  min-width: 250px;
+  border-radius: 50%;
+}
